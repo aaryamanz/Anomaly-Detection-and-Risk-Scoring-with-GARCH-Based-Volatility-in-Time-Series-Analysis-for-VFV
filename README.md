@@ -55,25 +55,25 @@ Install all dependencies with:
 ```bash
 pip install -r requirements.txt
 
-### Getting Started
+## Getting Started
 1. **Data Collection**: Modify the `ticker` variable to specify the financial asset to analyze (default is `VFV.TO`).
 2. **Run the Notebook**: Follow each section in the Jupyter notebook to replicate data preparation, anomaly detection, volatility modeling, and risk scoring.
 3. **Visualization**: Each section includes visualizations to inspect the results of anomaly detection, volatility modeling, and risk scoring.
 
-### Key Results
+## Key Results
 The project outputs a series of visualizations and metrics:
 - **High-Risk Periods**: Highlighted time periods with elevated risk scores based on Z-score, volatility, and anomalies.
 - **Volatility Clusters**: Periods of increased volatility captured by GARCH modeling.
 - **Risk Alerts**: A detailed risk score for each time period, factoring in kurtosis, anomalies, and volatility.
 
-### Future Improvements
+## Future Improvements
 Consider integrating:
 - **Tail Risk Analysis**: Using Extreme Value Theory to further quantify tail risks.
 - **Market Correlations**: Compare VFV volatility with major indices to detect correlated risks.
 - **Sentiment Analysis**: Integrate financial news sentiment to provide a forward-looking risk assessment.
 
-### License
+## License
 This project is licensed under the MIT License.
 
-# Acknowledgments
+## Acknowledgments
 Special thanks to open-source contributors of `yfinance`, `arch`, and `scikit-learn`, whose libraries made this analysis possible.
